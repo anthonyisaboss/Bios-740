@@ -1,0 +1,1441 @@
+[
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Alpha - amylase 1A copy number variants and the association with memory performance and Alzheimer ' s dementia .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "start": 0,
+        "end": 18,
+        "text": "Alpha - amylase 1A"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 88,
+        "end": 110,
+        "text": "Alzheimer ' s dementia"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "Alzheimer ' s dementia",
+        "start_char": 88,
+        "end_char": 110,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "Alzheimer ' s dementia",
+          "start_char": 88,
+          "end_char": 110,
+          "offset_valid": true
+        }
+      ],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "BACKGROUND : Previous studies have shown that copy number variation ( CNV ) in the alpha ( alpha ) - amylase gene ( AMY1A ) is associated with body mass index , insulin resistance , and blood glucose levels , factors also shown to increase the risk of Alzheimer ' s dementia ( AD ) .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 83,
+        "end": 113,
+        "text": "alpha ( alpha ) - amylase gene"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 116,
+        "end": 121,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T3",
+        "type": "other",
+        "start": 143,
+        "end": 158,
+        "text": "body mass index"
+      },
+      {
+        "id": "T4",
+        "type": "other",
+        "start": 161,
+        "end": 179,
+        "text": "insulin resistance"
+      },
+      {
+        "id": "T5",
+        "type": "other",
+        "start": 186,
+        "end": 206,
+        "text": "blood glucose levels"
+      },
+      {
+        "id": "T6",
+        "type": "disease",
+        "start": 252,
+        "end": 274,
+        "text": "Alzheimer ' s dementia"
+      },
+      {
+        "id": "T7",
+        "type": "disease",
+        "start": 277,
+        "end": 279,
+        "text": "AD"
+      }
+    ],
+    "gold_relations": [
+      {
+        "type": "risk_factor_of",
+        "head": 2,
+        "tail": 5
+      },
+      {
+        "type": "risk_factor_of",
+        "head": 3,
+        "tail": 5
+      },
+      {
+        "type": "risk_factor_of",
+        "head": 4,
+        "tail": 5
+      },
+      {
+        "type": "abbreviation_for",
+        "head": 6,
+        "tail": 5
+      },
+      {
+        "type": "abbreviation_for",
+        "head": 1,
+        "tail": 0
+      }
+    ],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "Alzheimer ' s dementia",
+        "start_char": 252,
+        "end_char": 274,
+        "offset_valid": true
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "text": "insulin resistance",
+        "start_char": 161,
+        "end_char": 179,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [
+      {
+        "type": "associated_with",
+        "head_id": "T1",
+        "tail_id": "T2",
+        "evidence": "factors also shown to increase the risk of Alzheimer ' s dementia"
+      }
+    ],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "Alzheimer ' s dementia",
+          "start_char": 252,
+          "end_char": 274,
+          "offset_valid": true
+        },
+        {
+          "id": "T2",
+          "type": "disease",
+          "text": "insulin resistance",
+          "start_char": 161,
+          "end_char": 179,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "associated_with",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": "factors also shown to increase the risk of Alzheimer ' s dementia"
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "We have previously demonstrated the presence of alpha - amylase in healthy neuronal dendritic spines and a reduction of the same in AD patients .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 48,
+        "end": 63,
+        "text": "alpha - amylase"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 132,
+        "end": 134,
+        "text": "AD"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 132,
+        "end_char": 134,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 132,
+          "end_char": 134,
+          "offset_valid": true
+        }
+      ],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "In the current study , we investigate the relationship between AMY1A copy number and AD , memory performance , and brain alpha - amylase activity .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 63,
+        "end": 68,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 85,
+        "end": 87,
+        "text": "AD"
+      },
+      {
+        "id": "T3",
+        "type": "gene",
+        "start": 121,
+        "end": 136,
+        "text": "alpha - amylase"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 85,
+        "end_char": 87,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 85,
+          "end_char": 87,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": ""
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "METHODS AND MATERIALS : The association between AMY1A copy number and development of AD was analyzed in 5422 individuals ( mean age at baseline 57 . 5 + - 5 . 9 , females 58 . 2 % ) from the Malmo diet and cancer study genotyped for AMY1A copy number , whereof 247 where diagnosed with AD during a mean follow - up of 20 years .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 48,
+        "end": 53,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 85,
+        "end": 87,
+        "text": "AD"
+      },
+      {
+        "id": "T3",
+        "type": "disease",
+        "start": 191,
+        "end": 212,
+        "text": "Malmo diet and cancer"
+      },
+      {
+        "id": "T4",
+        "type": "gene",
+        "start": 233,
+        "end": 238,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T5",
+        "type": "disease",
+        "start": 286,
+        "end": 288,
+        "text": "AD"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 85,
+        "end_char": 87,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 85,
+          "end_char": 87,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": "no other entities present"
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Associations between AMY1A copy number and cognitive performance where analyzed in 791 individuals ( mean age at baseline 54 . 7 + - 6 . 3 , females 63 % ) , who performed Montreal Cognitive Assessment ( MoCA ) test .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 21,
+        "end": 26,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T2",
+        "type": "method",
+        "start": 172,
+        "end": 201,
+        "text": "Montreal Cognitive Assessment"
+      },
+      {
+        "id": "T3",
+        "type": "method",
+        "start": 204,
+        "end": 208,
+        "text": "MoCA"
+      }
+    ],
+    "gold_relations": [
+      {
+        "type": "abbreviation_for",
+        "head": 2,
+        "tail": 1
+      }
+    ],
+    "pred_entities": [],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Correlation analysis between alpha - amylase activity or alpha - amylase gene expression and AMY1A copy number in post - mortem hippocampal tissue from on demented controls ( n = 8 ) and AD patients ( n = 10 ) was also performed .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 29,
+        "end": 44,
+        "text": "alpha - amylase"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 57,
+        "end": 72,
+        "text": "alpha - amylase"
+      },
+      {
+        "id": "T3",
+        "type": "gene",
+        "start": 93,
+        "end": 98,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T4",
+        "type": "disease",
+        "start": 155,
+        "end": 163,
+        "text": "demented"
+      },
+      {
+        "id": "T5",
+        "type": "disease",
+        "start": 187,
+        "end": 189,
+        "text": "AD"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 187,
+        "end_char": 189,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 187,
+          "end_char": 189,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": ""
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "RESULTS : Individuals with very high ( > = 10 ) AMY1A copy number had a significantly lower hazard ratio of AD ( HR = 0 . 62 , 95 % CI 0 . 41 - 0 . 94 ) and performed significantly better on MoCA delayed word recall test , compared to the reference group with AMY1A copy number 6 .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 48,
+        "end": 53,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 108,
+        "end": 110,
+        "text": "AD"
+      },
+      {
+        "id": "T3",
+        "type": "method",
+        "start": 191,
+        "end": 195,
+        "text": "MoCA"
+      },
+      {
+        "id": "T4",
+        "type": "gene",
+        "start": 260,
+        "end": 265,
+        "text": "AMY1A"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 67,
+        "end_char": 69,
+        "offset_valid": false
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 67,
+          "end_char": 69,
+          "offset_valid": false
+        }
+      ],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "A trend to lower hazard ratio of AD was also found among individuals with low AMY1A copy number ( 1 - 5 ) ( HR = 0 . 74 , 95 % CI 0 . 53 - 1 . 02 ) .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "start": 33,
+        "end": 35,
+        "text": "AD"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 78,
+        "end": 83,
+        "text": "AMY1A"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 33,
+        "end_char": 35,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 33,
+          "end_char": 35,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": ""
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "A tendency towards a positive correlation between brain alpha - amylase activity and AMY1A copy number was found , and females showed higher brain alpha - amylase activity compared to males .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "start": 56,
+        "end": 71,
+        "text": "alpha - amylase"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 85,
+        "end": 90,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T3",
+        "type": "drug",
+        "start": 147,
+        "end": 162,
+        "text": "alpha - amylase"
+      }
+    ],
+    "gold_relations": [
+      {
+        "type": "associated_with",
+        "head": 0,
+        "tail": 1
+      }
+    ],
+    "pred_entities": [],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "CONCLUSION : Our study suggests that the degree of alpha - amylase activity in the brain is affected by AMY1A copy number and gender , in addition to AD pathology .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "start": 51,
+        "end": 66,
+        "text": "alpha - amylase"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 104,
+        "end": 109,
+        "text": "AMY1A"
+      },
+      {
+        "id": "T3",
+        "type": "disease",
+        "start": 150,
+        "end": 152,
+        "text": "AD"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "The study further suggests that very high AMY1A copy number is associated with a decreased hazard ratio of AD and we speculate that this effect is mediated via a beneficial impact of AMY1A copy number on episodic memory performance .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "other",
+        "start": 42,
+        "end": 59,
+        "text": "AMY1A copy number"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 107,
+        "end": 109,
+        "text": "AD"
+      },
+      {
+        "id": "T3",
+        "type": "gene",
+        "start": 183,
+        "end": 188,
+        "text": "AMY1A"
+      }
+    ],
+    "gold_relations": [
+      {
+        "type": "associated_with",
+        "head": 0,
+        "tail": 1
+      }
+    ],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "AD",
+        "start_char": 107,
+        "end_char": 109,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "AD",
+          "start_char": 107,
+          "end_char": 109,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": ""
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Inhibition of beta - Secretase Activity by Monoterpenes , Sesquiterpenes , and C13 Norisoprenoids .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 14,
+        "end": 30,
+        "text": "beta - Secretase"
+      },
+      {
+        "id": "T2",
+        "type": "drug",
+        "start": 43,
+        "end": 55,
+        "text": "Monoterpenes"
+      },
+      {
+        "id": "T3",
+        "type": "drug",
+        "start": 58,
+        "end": 72,
+        "text": "Sesquiterpenes"
+      },
+      {
+        "id": "T4",
+        "type": "drug",
+        "start": 79,
+        "end": 97,
+        "text": "C13 Norisoprenoids"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Inhibition of beta - secretase ( BACE1 ) is currently regarded as the leading treatment strategy for Alzheimer ' s disease .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 14,
+        "end": 30,
+        "text": "beta - secretase"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 33,
+        "end": 38,
+        "text": "BACE1"
+      },
+      {
+        "id": "T3",
+        "type": "disease",
+        "start": 101,
+        "end": 122,
+        "text": "Alzheimer ' s disease"
+      }
+    ],
+    "gold_relations": [
+      {
+        "type": "treatment_for",
+        "head": 1,
+        "tail": 2
+      },
+      {
+        "type": "abbreviation_for",
+        "head": 1,
+        "tail": 0
+      },
+      {
+        "type": "treatment_for",
+        "head": 0,
+        "tail": 2
+      }
+    ],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "text": "beta - secretase",
+        "start_char": 14,
+        "end_char": 30,
+        "offset_valid": true
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "text": "Alzheimer ' s disease",
+        "start_char": 101,
+        "end_char": 122,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [
+      {
+        "type": "treatment_for",
+        "head_id": "T1",
+        "tail_id": "T2",
+        "evidence": "leading treatment strategy for"
+      }
+    ],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "drug",
+          "text": "beta - secretase",
+          "start_char": 14,
+          "end_char": 30,
+          "offset_valid": true
+        },
+        {
+          "id": "T2",
+          "type": "disease",
+          "text": "Alzheimer ' s disease",
+          "start_char": 101,
+          "end_char": 122,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "treatment_for",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": "leading treatment strategy for"
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "In the present study , we aimed to screen the in vitro inhibitory activity of 80 types of aroma compounds ( monoterpenes , sesquiterpenes , and C13 norisoprenoids ) , including plant - based types , at a 200 - muM concentration against a recombinant human BACE1 .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "start": 108,
+        "end": 120,
+        "text": "monoterpenes"
+      },
+      {
+        "id": "T2",
+        "type": "drug",
+        "start": 123,
+        "end": 137,
+        "text": "sesquiterpenes"
+      },
+      {
+        "id": "T3",
+        "type": "drug",
+        "start": 148,
+        "end": 162,
+        "text": "norisoprenoids"
+      },
+      {
+        "id": "T4",
+        "type": "gene",
+        "start": 256,
+        "end": 261,
+        "text": "BACE1"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "The results showed that the most potent inhibitor of BACE1 was geranyl acetone followed by ( + ) - camphor , ( - ) - fenchone , ( + ) - fenchone , and ( - ) - camphor with the half - maximal inhibitory concentration ( IC50 ) values of 51 . 9 + - 3 . 9 , 95 . 9 + - 11 . 0 , 106 . 3 + - 14 . 9 , 117 . 0 + - 18 . 6 , and 134 . 1 + - 16 . 4 muM , respectively .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 53,
+        "end": 58,
+        "text": "BACE1"
+      },
+      {
+        "id": "T2",
+        "type": "drug",
+        "start": 63,
+        "end": 78,
+        "text": "geranyl acetone"
+      },
+      {
+        "id": "T3",
+        "type": "drug",
+        "start": 91,
+        "end": 106,
+        "text": "( + ) - camphor"
+      },
+      {
+        "id": "T4",
+        "type": "drug",
+        "start": 109,
+        "end": 125,
+        "text": "( - ) - fenchone"
+      },
+      {
+        "id": "T5",
+        "type": "drug",
+        "start": 151,
+        "end": 166,
+        "text": "( - ) - camphor"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "text": "geranyl acetone",
+        "start_char": 63,
+        "end_char": 78,
+        "offset_valid": true
+      },
+      {
+        "id": "T2",
+        "type": "drug",
+        "text": "( + ) - camphor",
+        "start_char": 91,
+        "end_char": 106,
+        "offset_valid": true
+      },
+      {
+        "id": "T3",
+        "type": "drug",
+        "text": "( - ) - fenchone",
+        "start_char": 109,
+        "end_char": 125,
+        "offset_valid": true
+      },
+      {
+        "id": "T4",
+        "type": "drug",
+        "text": "( + ) - fenchone",
+        "start_char": 128,
+        "end_char": 144,
+        "offset_valid": true
+      },
+      {
+        "id": "T5",
+        "type": "drug",
+        "text": "( - ) - camphor",
+        "start_char": 151,
+        "end_char": 166,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [
+      {
+        "type": "no_relation",
+        "head_id": "T1",
+        "tail_id": "T2",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T1",
+        "tail_id": "T3",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T1",
+        "tail_id": "T4",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T1",
+        "tail_id": "T5",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T2",
+        "tail_id": "T3",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T2",
+        "tail_id": "T4",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T2",
+        "tail_id": "T5",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T3",
+        "tail_id": "T4",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T3",
+        "tail_id": "T5",
+        "evidence": "no direct relation"
+      },
+      {
+        "type": "no_relation",
+        "head_id": "T4",
+        "tail_id": "T5",
+        "evidence": "no direct relation"
+      }
+    ],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "drug",
+          "text": "geranyl acetone",
+          "start_char": 63,
+          "end_char": 78,
+          "offset_valid": true
+        },
+        {
+          "id": "T2",
+          "type": "drug",
+          "text": "( + ) - camphor",
+          "start_char": 91,
+          "end_char": 106,
+          "offset_valid": true
+        },
+        {
+          "id": "T3",
+          "type": "drug",
+          "text": "( - ) - fenchone",
+          "start_char": 109,
+          "end_char": 125,
+          "offset_valid": true
+        },
+        {
+          "id": "T4",
+          "type": "drug",
+          "text": "( + ) - fenchone",
+          "start_char": 128,
+          "end_char": 144,
+          "offset_valid": true
+        },
+        {
+          "id": "T5",
+          "type": "drug",
+          "text": "( - ) - camphor",
+          "start_char": 151,
+          "end_char": 166,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T3",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T4",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": "T5",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T2",
+          "tail_id": "T3",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T2",
+          "tail_id": "T4",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T2",
+          "tail_id": "T5",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T3",
+          "tail_id": "T4",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T3",
+          "tail_id": "T5",
+          "evidence": "no direct relation"
+        },
+        {
+          "type": "no_relation",
+          "head_id": "T4",
+          "tail_id": "T5",
+          "evidence": "no direct relation"
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Furthermore , the mechanism of inhibition of BACE1 by geranyl acetone was analyzed using Dixon kinetics plus Cornish - Bowden plots , which revealed mixed - type mode .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 45,
+        "end": 50,
+        "text": "BACE1"
+      },
+      {
+        "id": "T2",
+        "type": "drug",
+        "start": 54,
+        "end": 69,
+        "text": "geranyl acetone"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "text": "geranyl acetone",
+        "start_char": 54,
+        "end_char": 69,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "drug",
+          "text": "geranyl acetone",
+          "start_char": 54,
+          "end_char": 69,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "no_relation",
+          "head_id": "T1",
+          "tail_id": null,
+          "evidence": ""
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Therefore aroma compounds may be used as potential lead molecules for designing anti - BACE1 agents .",
+    "gold_entities": [],
+    "gold_relations": [],
+    "pred_entities": [],
+    "pred_relations": [],
+    "raw_pred": {
+      "entities": [],
+      "relations": []
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Endogenous Abeta peptide promote Abeta oligomerization tendency of spiked synthetic Abeta in Alzheimer ' s disease plasma .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "gene",
+        "start": 0,
+        "end": 24,
+        "text": "Endogenous Abeta peptide"
+      },
+      {
+        "id": "T2",
+        "type": "gene",
+        "start": 33,
+        "end": 38,
+        "text": "Abeta"
+      },
+      {
+        "id": "T3",
+        "type": "gene",
+        "start": 84,
+        "end": 89,
+        "text": "Abeta"
+      },
+      {
+        "id": "T4",
+        "type": "disease",
+        "start": 93,
+        "end": 114,
+        "text": "Alzheimer ' s disease"
+      }
+    ],
+    "gold_relations": [],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "drug",
+        "text": "Abeta",
+        "start_char": 11,
+        "end_char": 16,
+        "offset_valid": true
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "text": "Alzheimer ' s disease",
+        "start_char": 93,
+        "end_char": 114,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [
+      {
+        "type": "associated_with",
+        "head_id": "T1",
+        "tail_id": "T2",
+        "evidence": "Abeta in Alzheimer ' s disease"
+      }
+    ],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "drug",
+          "text": "Abeta",
+          "start_char": 11,
+          "end_char": 16,
+          "offset_valid": true
+        },
+        {
+          "id": "T2",
+          "type": "disease",
+          "text": "Alzheimer ' s disease",
+          "start_char": 93,
+          "end_char": 114,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "associated_with",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": "Abeta in Alzheimer ' s disease"
+        }
+      ]
+    },
+    "error": null
+  },
+  {
+    "doc_id": null,
+    "sent_id": null,
+    "text": "Alzheimer ' s disease ( AD ) is the most common form of age - associated dementia .",
+    "gold_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "start": 0,
+        "end": 21,
+        "text": "Alzheimer ' s disease"
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "start": 24,
+        "end": 26,
+        "text": "AD"
+      },
+      {
+        "id": "T3",
+        "type": "disease",
+        "start": 56,
+        "end": 81,
+        "text": "age - associated dementia"
+      }
+    ],
+    "gold_relations": [
+      {
+        "type": "abbreviation_for",
+        "head": 1,
+        "tail": 0
+      },
+      {
+        "type": "hyponym_of",
+        "head": 0,
+        "tail": 2
+      }
+    ],
+    "pred_entities": [
+      {
+        "id": "T1",
+        "type": "disease",
+        "text": "Alzheimer ' s disease",
+        "start_char": 0,
+        "end_char": 21,
+        "offset_valid": true
+      },
+      {
+        "id": "T2",
+        "type": "disease",
+        "text": "dementia",
+        "start_char": 73,
+        "end_char": 81,
+        "offset_valid": true
+      }
+    ],
+    "pred_relations": [
+      {
+        "type": "associated_with",
+        "head_id": "T1",
+        "tail_id": "T2",
+        "evidence": "most common form of age - associated dementia"
+      }
+    ],
+    "raw_pred": {
+      "entities": [
+        {
+          "id": "T1",
+          "type": "disease",
+          "text": "Alzheimer ' s disease",
+          "start_char": 0,
+          "end_char": 21,
+          "offset_valid": true
+        },
+        {
+          "id": "T2",
+          "type": "disease",
+          "text": "dementia",
+          "start_char": 73,
+          "end_char": 81,
+          "offset_valid": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "associated_with",
+          "head_id": "T1",
+          "tail_id": "T2",
+          "evidence": "most common form of age - associated dementia"
+        }
+      ]
+    },
+    "error": null
+  }
+]
